@@ -1,0 +1,101 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.page-1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("pexels-pixabay-46798.jpg");
+    background-size: cover;
+
+}
+
+.menu-bar{
+    height: 70px;
+    width: 100%;
+    background-color: #045694;
+    display: flex;
+    
+   
+}
+
+.logo-box{
+    height: 50px;
+    width: 30%;
+    /* background-color: red; */
+    
+}
+
+.logo-box img{
+    height: 35px;
+    width: 80px;
+    padding: 18px 45px;
+}
+
+.menu-option{
+    height: 70px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 4px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(255, 255, 0);
+    -webkit-text-stroke: 3px red;
+    padding: 80px;
+    word-spacing: 8px;
+}
+
+.text h4 {
+    font-size: 35px;
+    margin-top: -80px;
+    color: black;
+    -webkit-text-stroke: 1px red;
+    
+}
+
+.text p{
+    height: 100px;
+    width: 500px;
+    color: rgb(255, 255, 47);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+    
+  
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+ 
+}
